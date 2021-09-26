@@ -1,0 +1,236 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body{
+   font-family: Arial, Helvetica, sans-serif;   
+}
+.container {
+   border: 1px solid #000;
+   max-width: 1180px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+
+   display: flex;
+   flex-direction: column;
+}
+.content {
+   flex: 1 0 auto;
+}
+.hi {
+   padding: 50px 0px;
+   background-color: rgb(74, 83, 110);
+}
+.hi__row {
+   display: flex;
+   justify-content: space-between;
+}
+.hi__body {
+   color: rgb(255, 255, 255);
+   padding-right: 40px;
+   flex: 1 0 auto;
+}
+.hi__title {
+   font-size: 60px;
+   text-shadow: 2px 2px 0 rgb(5, 5, 5);
+   margin-bottom: 20px;
+}
+.hi_list {
+
+}
+.hi_list li {
+   font-size: 20px;
+   background: url("../img/icons/icon.png") 0 0/18px 18px no-repeat;
+   padding: 0 0 0 24px;
+   margin: 0 0 8px 0;
+}
+.hi_list li:last-child{
+   margin: 0;
+}
+.hi__image {
+  
+}
+
+
+
+
+
+.title {
+   font-size: 30px;
+   line-height: 40px;
+}
+
+.what {
+   padding: 50px 0;
+}
+.what__row {
+   display: flex;
+   align-items: center;
+}
+.what__image {
+   flex: 0 0 420px;
+}
+.what__image img {
+  /*  max-width: 900px; */
+}
+.what__body {
+   padding-left: 38px;
+   flex: 1 0 380px;
+}
+.what__title {
+   margin: 0 0 30px 0;
+}
+.what__text {
+   font-size: 18px;
+}
+.what__text p:first-child{
+   padding-bottom: 20px;
+}
+
+
+
+
+
+
+.colums {
+   padding: 0 0 50px 0;
+}
+.container {
+}
+.colums__title {
+   text-align: center;
+   margin: 0 0 10px 0;
+}
+.colums__row {
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+.colums__column {
+   margin: 0 10px 30px 10px;
+   border-radius: 0 10px 10px 0px;
+   border: 2px solid rgb(42, 62, 124);
+   background-color: rgb(190, 39, 69);
+   flex: 0 1 47%;
+}
+.colums__item {
+}
+.item {
+}
+.item__row {
+   display: flex;
+}
+.item__image {
+   flex:  0 0 200px;
+}
+.item__body {
+   flex: 1 1 auto;
+   padding: 0 0 0 15px;
+}
+.item__title {
+   padding: 0 8px 0 0;
+   font-weight: 200;
+   color: rgb(17, 19, 139);
+   font-size: 22px;
+   line-height: 30px;
+}
+.item__text {
+   font-size: 16px;
+   line-height: 22px;
+   padding: 10px 6px 0px 0;
+}
+
+
+
+
+
+
+.vertical {
+ padding: 0 0 50px 0;
+}
+.vertical__title {
+   text-align: center;
+}
+.vertical__body {
+   max-width: 990px;
+   margin: 0 auto;
+}
+.vertical__row {
+   margin: 0 -25px;
+   display: flex;
+}
+.vertical__column {
+   padding: 0 25px;
+   flex: 0 1 33.33%;
+   display: flex;
+}
+.vertical__item {
+   display: flex;
+   flex-direction: column;
+   border-radius: 8px;
+   border: 2px solid rgb(50, 69, 124);
+   background-color: rgb(50, 69, 124);
+}
+.vertical__subtitle {
+   padding: 3px;
+   color: rgb(255, 255, 255);
+   font-size: 24px;
+   text-align: center;
+}
+.vertical__label {
+   padding: 10px;
+   color: rgb(50, 69, 124);
+   font-size: 30px;
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+}
+.vertical__text {
+   flex: 1 1 auto;
+   line-height: 25px;
+   padding: 10px 10px;
+   color: white;
+}
+.vertical__btn {
+   margin: 0 30px 15px;
+   border-radius: 6px;
+   display: block;
+   background-color: rgb(0, 128, 117);
+   height: 40px;
+}
+
+
+
+
+
+
+.footer {
+   background-color: rgb(161, 161, 161);
+}
+.footer__row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+}
+.footer__text {
+   font-size: 15px;
+   letter-spacing: 2.5px;
+}
